@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "target": "es5",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "isolatedModules": true,
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "composite": true
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", "./config/jest/setupTests.ts"]
+}
